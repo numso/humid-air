@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.container li {
+  background-color: #00af00;
+  flex: 1;
+  font-size: 30px;
+  padding: 10px;
+  text-align: center;
+}
+
+.container li a {
+  color: white;
+  text-decoration: none;
+}

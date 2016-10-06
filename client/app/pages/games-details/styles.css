@@ -1,0 +1,79 @@
+.container {
+  align-items: center;
+  background-color: #1b2838;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+}
+
+.game {
+  width: 80%;
+  z-index: 1;
+}
+
+.header {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.screenshots {
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.8) inset;
+  display: flex;
+  overflow: auto;
+  padding: 7px;
+}
+
+.screenshots a {
+  padding: 0 1px;
+}
+
+.tinter {
+  background: rgba(0, 255, 0, 0.3);
+  height: 100%;
+  left: 0;
+  overflow: auto;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.buyNow {
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.footer {
+  display: flex;
+}
+
+.footer > div {
+  background: green;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.4);
+  flex: 1;
+  margin: 4px;
+  padding: 10px 20px;
+}
+
+.pill {
+  background-color: #00ff14;
+  border-radius: 20px;
+  display: inline-block;
+  margin: 5px;
+  padding: 5px 10px;
+}
+
+.legal {
+  padding: 30px 0;
+}
+
+.comment {
+  padding-bottom: 15px;
+}
+
+.purchased {
+  background-color: #38b338;
+  margin-left: 10px;
+  padding: 10px;
+}

@@ -1,0 +1,51 @@
+.container {
+  align-items: center;
+  background-color: #b4d2b4;
+  display: flex;
+  flex-direction: column;
+}
+
+.games {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  width: 80%;
+}
+
+.game {
+  list-style-type: none;
+  width: 50%;
+}
+
+.game > a {
+  align-items: center;
+  background: #40ab5e;
+  color: black;
+  display: flex;
+  font-size: 30px;
+  margin: 1px;
+  padding: 4px;
+  text-decoration: none;
+}
+
+.game > a:hover {
+  background: #80ab5e;
+}
+
+.game > a > img {
+  width: 200px;
+}
+
+.title {
+  padding: 0 10px;
+}
+
+.loadMore {
+  background: #057505;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 30px;
+  width: 100%;
+}

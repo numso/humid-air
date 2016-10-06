@@ -1,0 +1,10 @@
+{
+  "root": true,
+  "extends": "@numso/numso",
+  "rules": {
+    "no-nested-ternary": "off",
+    "react/no-unused-prop-types": "off",
+    "jsx-a11y/img-has-alt": "off",
+    "no-underscore-dangle": ["error", { "allow": ["_id"] }]
+  }
+}
