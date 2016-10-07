@@ -2,3 +2,4 @@
 node_modules/
 scripts/*.json
 client/build/bundle.js
+npm-debug.log*
